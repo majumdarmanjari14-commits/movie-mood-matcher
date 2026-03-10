@@ -217,5 +217,6 @@ if user_input:
     else:
         st.warning("Hmm, I didn't catch that mood. Try words like: happy, sad, excited, nostalgic, scared, dark, thoughtful.")
 
-st.markdown("<br><br>")
+st.markdown("<br><br>", unsafe_allow_html=True)
 st.markdown("<p style='text-align:center; color:#555; font-size:13px;'>Built with ❤️ using Python, scikit-learn & Streamlit</p>", unsafe_allow_html=True)
+
